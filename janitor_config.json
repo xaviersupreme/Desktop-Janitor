@@ -1,0 +1,66 @@
+{
+    "folders_to_watch": [
+        "C:\\Users\\xlinus\\Downloads",
+        "C:\\Users\\xlinus\\Desktop"
+    ],
+    "rules": [
+        {
+            "name": "Images",
+            "destination": "C:\\Users\\xlinus\\Pictures\\Sorted\\Images",
+            "conditions": {
+                "extensions": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".webp"]
+            }
+        },
+        {
+            "name": "Screenshots",
+            "destination": "C:\\Users\\xlinus\\Pictures\\Sorted\\Screenshots",
+            "conditions": {
+                "extensions": [".png"],
+                "filename_contains": ["screenshot", "capture"]
+            }
+        },
+        {
+            "name": "Documents",
+            "destination": "C:\\Users\\xlinus\\Documents\\Sorted\\Documents",
+            "conditions": {
+                "extensions": [".pdf", ".docx", ".doc", ".txt", ".pptx", ".xlsx", ".md"]
+            }
+        },
+        {
+            "name": "Videos",
+            "destination": "C:\\Users\\xlinus\\Videos\\Sorted",
+            "conditions": {
+                "extensions": [".mp4", ".mov", ".avi", ".mkv", ".wmv"]
+            }
+        },
+        {
+            "name": "Audio",
+            "destination": "C:\\Users\\xlinus\\Music\\Sorted",
+            "conditions": {
+                "extensions": [".mp3", ".wav", ".ogg", ".flac"]
+            }
+        },
+        {
+            "name": "Archives",
+            "destination": "C:\\Users\\xlinus\\Documents\\Sorted\\Archives",
+            "conditions": {
+                "extensions": [".zip", ".rar", ".7z", ".tar", ".gz"]
+            }
+        },
+        {
+            "name": "Installers",
+            "destination": "C:\\Users\\xlinus\\Documents\\Sorted\\Installers",
+            "conditions": {
+                "extensions": [".exe", ".msi"]
+            }
+        },
+        {
+            "name": "Old Downloads (Cleanup)",
+            "action": "delete",
+            "conditions": {
+                "age_days": 30,
+                "source_folder": "C:\\Users\\xlinus\\Downloads"
+            }
+        }
+    ]
+}
