@@ -118,3 +118,4 @@ if __name__ == "__main__":
 
     console = Console()
     run_janitor(dry_run=args.dry_run)
+    console.input("\n[bold yellow]Press Enter to exit...[/]")
