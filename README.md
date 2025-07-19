@@ -16,7 +16,7 @@ A sleek, configurable CLI tool to automatically organize your files and keep you
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/desktop-janitor.git
+    git clone https://github.com/xaviersupreme/Desktop-Janitor.git
     cd desktop-janitor
     ```
 
